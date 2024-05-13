@@ -1,9 +1,9 @@
-import React from "react";
+import Loading_2 from "@/components/loading/loading_2/loading_2";
 
 const Loading = () => {
   return (
     <div className="w-full h-full flex justify-center items-center">
-      <span className="loader"></span>
+      <Loading_2 />
     </div>
   );
 };

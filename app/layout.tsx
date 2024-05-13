@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
-
 import { Noto_Sans_Arabic } from "next/font/google";
 import clsx from "clsx";
-import { landingConfig } from "./components/config/Config";
+import { landingConfig } from "@/lib/config";
 
 export const metadata: Metadata = {
   title: {
